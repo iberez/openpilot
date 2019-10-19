@@ -1,16 +1,15 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 from cereal import car
+from common.realtime import sec_since_boot
 from selfdrive.config import Conversions as CV
 from selfdrive.controls.lib.drive_helpers import create_event, EventTypes as ET
 from selfdrive.controls.lib.vehicle_model import VehicleModel
-from selfdrive.car.subaru.values import CAR
-from selfdrive.car.subaru.carstate import CarState, get_powertrain_can_parser, get_camera_can_parser
-from selfdrive.car import STD_CARGO_KG, scale_rot_inertia, scale_tire_stiffness, gen_empty_fingerprint
-from selfdrive.car.interfaces import CarInterfaceBase
+from selfdrive.car.mercedes.values import CAR
+from selfdrive.car.mercedes.carstate import CarState, get_powertrain_can_parser, get_camera_can_parser
+from selfdrive.car import STD_CARGO_KG
 
-ButtonType = car.CarState.ButtonEvent.Type
 
-class CarInterface(CarInterfaceBase):
+class CarInterface(object):
   def __init__(self, CP, CarController):
     self.CP = CP
 
@@ -35,30 +34,31 @@ class CarInterface(CarInterfaceBase):
     return float(accel) / 4.0
 
   @staticmethod
-  def get_params(candidate, fingerprint=gen_empty_fingerprint(), vin="", has_relay=False):
+  def calc_accel_override(a_ego, a_target, v_ego, v_target):
+    return 1.0
+
+  @staticmethod
+  def get_params(candidate, fingerprint, vin=""):
     ret = car.CarParams.new_message()
 
-    ret.carName = "subaru"
-    ret.radarOffCan = True
+    ret.carName = "MERCEDES"
     ret.carFingerprint = candidate
     ret.carVin = vin
-    ret.isPandaBlack = has_relay
-    ret.safetyModel = car.CarParams.SafetyModel.subaru
+    ret.safetyModel = car.CarParams.SafetyModel.toyota
 
     ret.enableCruise = True
     ret.steerLimitAlert = True
 
-    # force openpilot to fake the stock camera, since car harness is not supported yet and old style giraffe (with switches)
-    # was never released
     ret.enableCamera = True
 
     ret.steerRateCost = 0.7
 
-    if candidate in [CAR.IMPREZA]:
-      ret.mass = 1568. + STD_CARGO_KG
-      ret.wheelbase = 2.67
+    if candidate in [CAR.ECLASS]:
+      ret.mass = 1938. + STD_CARGO_KG
+      ret.wheelbase = 2.87
       ret.centerToFront = ret.wheelbase * 0.5
       ret.steerRatio = 15
+      tire_stiffness_factor = 1.0
       ret.steerActuatorDelay = 0.4   # end-to-end angle controller
       ret.lateralTuning.pid.kf = 0.00005
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0., 20.], [0., 20.]]
@@ -70,7 +70,7 @@ class CarInterface(CarInterfaceBase):
     ret.steerRatioRear = 0.
     # testing tuning
 
-    # No long control in subaru
+    # No long control in mercedes
     ret.gasMaxBP = [0.]
     ret.gasMaxV = [0.]
     ret.brakeMaxBP = [0.]
@@ -84,27 +84,44 @@ class CarInterface(CarInterfaceBase):
 
     # end from gm
 
+    # hardcoding honda civic 2016 touring params so they can be used to
+    # scale unknown params for other cars
+    mass_civic = 2923. * CV.LB_TO_KG + STD_CARGO_KG
+    wheelbase_civic = 2.70
+    centerToFront_civic = wheelbase_civic * 0.4
+    centerToRear_civic = wheelbase_civic - centerToFront_civic
+    rotationalInertia_civic = 2500
+    tireStiffnessFront_civic = 192150
+    tireStiffnessRear_civic = 202500
+    centerToRear = ret.wheelbase - ret.centerToFront
+
     # TODO: get actual value, for now starting with reasonable value for
     # civic and scaling by mass and wheelbase
-    ret.rotationalInertia = scale_rot_inertia(ret.mass, ret.wheelbase)
+    ret.rotationalInertia = rotationalInertia_civic * \
+                            ret.mass * ret.wheelbase**2 / (mass_civic * wheelbase_civic**2)
 
     # TODO: start from empirically derived lateral slip stiffness for the civic and scale by
     # mass and CG position, so all cars will have approximately similar dyn behaviors
-    ret.tireStiffnessFront, ret.tireStiffnessRear = scale_tire_stiffness(ret.mass, ret.wheelbase, ret.centerToFront)
+    ret.tireStiffnessFront = (tireStiffnessFront_civic * tire_stiffness_factor) * \
+                             ret.mass / mass_civic * \
+                             (centerToRear / ret.wheelbase) / (centerToRear_civic / wheelbase_civic)
+    ret.tireStiffnessRear = (tireStiffnessRear_civic * tire_stiffness_factor) * \
+                            ret.mass / mass_civic * \
+                            (ret.centerToFront / ret.wheelbase) / (centerToFront_civic / wheelbase_civic)
 
     return ret
 
   # returns a car.CarState
-  def update(self, c, can_strings):
-    self.pt_cp.update_strings(can_strings)
-    self.cam_cp.update_strings(can_strings)
+  def update(self, c):
+    can_rcv_valid, _ = self.pt_cp.update(int(sec_since_boot() * 1e9), True)
+    cam_rcv_valid, _ = self.cam_cp.update(int(sec_since_boot() * 1e9), False)
 
     self.CS.update(self.pt_cp, self.cam_cp)
 
     # create message
     ret = car.CarState.new_message()
 
-    ret.canValid = self.pt_cp.can_valid and self.cam_cp.can_valid
+    ret.canValid = can_rcv_valid and cam_rcv_valid and self.pt_cp.can_valid and self.cam_cp.can_valid
 
     # speeds
     ret.vEgo = self.CS.v_ego
@@ -144,18 +161,18 @@ class CarInterface(CarInterfaceBase):
     # blinkers
     if self.CS.left_blinker_on != self.CS.prev_left_blinker_on:
       be = car.CarState.ButtonEvent.new_message()
-      be.type = ButtonType.leftBlinker
+      be.type = 'leftBlinker'
       be.pressed = self.CS.left_blinker_on
       buttonEvents.append(be)
 
     if self.CS.right_blinker_on != self.CS.prev_right_blinker_on:
       be = car.CarState.ButtonEvent.new_message()
-      be.type = ButtonType.rightBlinker
+      be.type = 'rightBlinker'
       be.pressed = self.CS.right_blinker_on
       buttonEvents.append(be)
 
     be = car.CarState.ButtonEvent.new_message()
-    be.type = ButtonType.accelCruise
+    be.type = 'accelCruise'
     buttonEvents.append(be)
 
 
