@@ -1,7 +1,7 @@
 #from common.numpy_fast import clip
 from selfdrive.car import apply_std_steer_torque_limits
-from selfdrive.car.subaru import subarucan
-from selfdrive.car.subaru.values import CAR, DBC
+from selfdrive.car.mercedes import mercedescan
+from selfdrive.car.mercedes.values import CAR, DBC
 from selfdrive.can.packer import CANPacker
 
 
@@ -11,7 +11,7 @@ class CarControllerParams():
     self.STEER_STEP = 2                # how often we update the steer cmd
     self.STEER_DELTA_UP = 50           # torque increase per refresh, 0.8s to max
     self.STEER_DELTA_DOWN = 70         # torque decrease per refresh
-    if car_fingerprint == CAR.IMPREZA:
+    if car_fingerprint == CAR.ECLASS:
       self.STEER_DRIVER_ALLOWANCE = 60   # allowed driver torque before start limiting
       self.STEER_DRIVER_MULTIPLIER = 10   # weight driver torque heavily
       self.STEER_DRIVER_FACTOR = 1     # from dbc
@@ -58,16 +58,16 @@ class CarController():
       if not lkas_enabled:
         apply_steer = 0
 
-      can_sends.append(subarucan.create_steering_control(self.packer, CS.CP.carFingerprint, apply_steer, frame, P.STEER_STEP))
+      can_sends.append(mercedescan.create_steering_control(self.packer, CS.CP.carFingerprint, apply_steer, frame, P.STEER_STEP))
 
       self.apply_steer_last = apply_steer
 
     if self.es_distance_cnt != CS.es_distance_msg["Counter"]:
-      can_sends.append(subarucan.create_es_distance(self.packer, CS.es_distance_msg, pcm_cancel_cmd))
+      can_sends.append(mercedescan.create_es_distance(self.packer, CS.es_distance_msg, pcm_cancel_cmd))
       self.es_distance_cnt = CS.es_distance_msg["Counter"]
 
     if self.es_lkas_cnt != CS.es_lkas_msg["Counter"]:
-      can_sends.append(subarucan.create_es_lkas(self.packer, CS.es_lkas_msg, visual_alert, left_line, right_line))
+      can_sends.append(mercedescan.create_es_lkas(self.packer, CS.es_lkas_msg, visual_alert, left_line, right_line))
       self.es_lkas_cnt = CS.es_lkas_msg["Counter"]
 
     return can_sends
