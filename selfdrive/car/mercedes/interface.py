@@ -41,7 +41,7 @@ class CarInterface(object):
   def get_params(candidate, fingerprint, vin=""):
     ret = car.CarParams.new_message()
 
-    ret.carName = "MERCEDES"
+    ret.carName = "mercedes"
     ret.carFingerprint = candidate
     ret.carVin = vin
     ret.safetyModel = car.CarParams.SafetyModel.toyota
