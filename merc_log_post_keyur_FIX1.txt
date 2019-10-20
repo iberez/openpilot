@@ -1,0 +1,895 @@
+Result: Parcel(00000000 00000001   '........')
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+installed apks {'com.android.providers.telephony': '/system/priv-app/TelephonyProvider/TelephonyProvider.apk', 'com.qti.service.colorservice': '/system/vendor/app/colorservice/colorservice.apk', 'com.qualcomm.shutdownlistner': '/system/app/shutdownlistener/shutdownlistener.apk', 'com.android.documentsui': '/system/app/DocumentsUI/DocumentsUI.apk', 'ai.comma.plus.black': '/data/app/ai.comma.plus.black-1/base.apk', 'ai.comma.plus.frame': '/data/app/ai.comma.plus.frame-1/base.apk', 'com.android.externalstorage': '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk', 'com.qualcomm.qti.telephonyservice': '/system/app/QtiTelephonyService/QtiTelephonyService.apk', 'com.android.defcontainer': '/system/priv-app/DefaultContainerService/DefaultContainerService.apk', 'com.android.pacprocessor': '/system/app/PacProcessor/PacProcessor.apk', 'org.codeaurora.bluetooth': '/system/app/BluetoothExt/BluetoothExt.apk', 'com.qti.qualcomm.datastatusnotification': '/system/app/datastatusnotification/datastatusnotification.apk', 'android': '/system/framework/framework-res.apk', 'cyanogenmod.platform': '/system/framework/org.cyanogenmod.platform-res.apk', 'com.android.backupconfirm': '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk', 'org.codeaurora.ims': '/system/priv-app/ims/ims.apk', 'com.android.statementservice': '/system/priv-app/StatementService/StatementService.apk', 'com.qualcomm.qcrilmsgtunnel': '/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk', 'com.android.providers.settings': '/system/priv-app/SettingsProvider/SettingsProvider.apk', 'com.android.sharedstoragebackup': '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk', 'com.android.printspooler': '/system/app/PrintSpooler/PrintSpooler.apk', 'com.android.frameworks.telresources': '/system/app/telresources/telresources.apk', 'com.android.webview': '/system/app/webview/webview.apk', 'com.android.inputdevices': '/system/priv-app/InputDevices/InputDevices.apk', 'com.android.keychain': '/system/app/KeyChain/KeyChain.apk', 'org.cyanogenmod.cmsettings': '/system/priv-app/CMSettingsProvider/CMSettingsProvider.apk', 'com.android.packageinstaller': '/system/priv-app/PackageInstaller/PackageInstaller.apk', 'com.android.proxyhandler': '/system/priv-app/ProxyHandler/ProxyHandler.apk', 'ai.comma.plus.neossetup': '/system/priv-app/NEOSSetup/NEOSSetup.apk', 'com.android.inputmethod.latin': '/system/app/LatinIME/LatinIME.apk', 'com.android.smspush': '/system/app/WAPPushManager/WAPPushManager.apk', 'ai.comma.plus.offroad': '/data/app/ai.comma.plus.offroad-1/base.apk', 'com.android.settings': '/system/priv-app/Settings/Settings.apk', 'com.qualcomm.qti.ims': '/system/vendor/app/imssettings/imssettings.apk', 'com.android.vpndialogs': '/system/priv-app/VpnDialogs/VpnDialogs.apk', 'com.android.phone': '/system/priv-app/TeleService/TeleService.apk', 'com.android.shell': '/system/priv-app/Shell/Shell.apk', 'com.android.location.fused': '/system/priv-app/FusedLocation/FusedLocation.apk', 'com.android.systemui': '/system/priv-app/SystemUI/SystemUI.apk', 'com.android.bluetoothmidiservice': '/system/app/BluetoothMidiService/BluetoothMidiService.apk', 'com.qualcomm.fastdormancy': '/system/app/fastdormancy/fastdormancy.apk', 'com.android.bluetooth': '/system/app/Bluetooth/Bluetooth.apk', 'com.qualcomm.timeservice': '/system/app/TimeService/TimeService.apk', 'com.android.development': '/system/app/Development/Development.apk', 'com.qualcomm.embms': '/system/app/embms/embms.apk', 'com.android.captiveportallogin': '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk'}
+comparing version of ai.comma.plus.black  3e77042a72eadf465ec3c577ebe3cb9cef4e48bb vs 3e77042a72eadf465ec3c577ebe3cb9cef4e48bb
+comparing version of ai.comma.plus.frame  f386656c74043f94b5a27fb7ac031277d8ab17a6 vs f386656c74043f94b5a27fb7ac031277d8ab17a6
+comparing version of ai.comma.plus.offroad  3a27d188b529f3e01c0cec55be43c190c02635f3 vs 3a27d188b529f3e01c0cec55be43c190c02635f3
+getting pilotauth
+dongle id is 5857f6160f94ae01
+dirty is 1
+make: Nothing to be done for 'all'.
+preimporting selfdrive.thermald
+preimporting selfdrive.loggerd.uploader
+preimporting selfdrive.loggerd.deleter
+preimporting selfdrive.controls.controlsd
+make: 'boardd_api_impl.so' is up to date.
+mkdir -p obj
+make: 'simple_kalman_impl.so' is up to date.
+make: 'packer_impl.so' is up to date.
+mkdir -p obj
+make: Nothing to be done for 'all'.
+preimporting selfdrive.controls.plannerd
+make: Nothing to be done for 'all'.
+preimporting selfdrive.controls.radard
+make: Nothing to be done for 'all'.
+building ('selfdrive/locationd', ['./ubloxd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/loggerd', ['./loggerd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.logmessaged
+preimporting selfdrive.tombstoned
+building ('selfdrive/logcatd', ['./logcatd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/proclogd', ['./proclogd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/boardd', ['./boardd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.pandad
+building ('selfdrive/ui', ['./start.py'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.locationd.calibrationd
+building ('selfdrive/locationd', ['./paramsd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/visiond', ['./visiond'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/sensord', ['./start_sensord.py'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/sensord', ['./start_gpsd.py'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.updated
+manager start
+{'environ': environ({'SHELL': '/system/comma/usr/bin/bash', 'PREFIX': '/usr', 'NUMEXPR_NUM_THREADS': '1', 'GIT_SSH_COMMAND': 'ssh -i /data/gitkey', 'EDITOR': 'vim', 'PWD': '/data/openpilot/selfdrive', 'LOGNAME': 'root', 'OPENBLAS_NUM_THREADS': '1', 'EXTERNAL_STORAGE': '/sdcard', 'HOME': '/data/data/com.termux/files/home', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/data/data/com.termux/files/home/.pythonrc', 'SSH_CONNECTION': '192.168.1.53 49966 192.168.1.87 8022', 'VECLIB_MAXIMUM_THREADS': '1', 'ANDROID_DATA': '/data', 'PYTHONPATH': '/data/openpilot', 'TERM': 'xterm-256color', 'VIMINIT': 'source $MYVIMRC', 'USER': 'root', 'SHLVL': '2', 'VALGRIND_LIB': '/usr/lib/valgrind', 'ANDROID_ROOT': '/system', 'PASSIVE': '0', 'LD_LIBRARY_PATH': '/data/data/com.termux/files/usr/lib', 'MYVIMRC': '/data/data/com.termux/files/home/.vimrc', 'SSH_CLIENT': '192.168.1.53 49966 8022', 'OMP_NUM_THREADS': '1', 'PATH': '/usr/local/bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/sbin:/data/data/com.termux/files/usr/bin/applets:/bin:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'MKL_NUM_THREADS': '1', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/data/openpilot', '_': './manager.py', 'BASEDIR': '/data/openpilot', 'DONGLE_ID': '5857f6160f94ae01'})}
+loggerd.cc: bootlog to /data/media/0/realdata/2019-10-20--23-42-17--0
+starting python selfdrive.thermald
+starting python selfdrive.logmessaged
+starting process logcatd
+sh: can't create /sys/module/dwc3_msm/parameters/otg_switch: Permission denied
+starting python selfdrive.tombstoned
+starting python selfdrive.loggerd.uploader
+starting process ui
+uploader_fn
+logcatd.cc:34: int main(): assertion "err == 0" failed
+starting python selfdrive.updated
+running pm enable ai.comma.plus.offroad
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=65 time=34.2 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 34.285/34.285/34.285/0.000 ms
+{"event": "uploader_netcheck", "allow_cellular": true, "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+to upload ('2019-10-20--23-42-17--0/bootlog.bz2', '/data/media/0/realdata/2019-10-20--23-42-17--0/bootlog.bz2')
+{"event": "upload", "key": "2019-10-20--23-42-17--0/bootlog.bz2", "fn": "/data/media/0/realdata/2019-10-20--23-42-17--0/bootlog.bz2", "sz": 61443, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+checking '2019-10-20--23-42-17--0/bootlog.bz2' with size 61443
+uploading '/data/media/0/realdata/2019-10-20--23-42-17--0/bootlog.bz2'
+make: Nothing to be done for 'all'.
+WARNING: linker: ui: unused DT entry: type 0x1d arg 0x2265
+running pm enable ai.comma.plus.frame
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+ui.c: awake normal
+Result: Parcel(00000000    '....')
+crash
+Traceback (most recent call last):
+  File "./manager.py", line 160, in launcher
+    mod.main()
+  File "/data/openpilot/selfdrive/logmessaged.py", line 19, in main
+    pub_sock = messaging.pub_sock(service_list['logMessage'].port)
+  File "/data/openpilot/selfdrive/messaging.py", line 16, in pub_sock
+    sock.bind("tcp://%s:%d" % (addr, port))
+  File "zmq/backend/cython/socket.pyx", line 550, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
+    raise ZMQError(errno)
+zmq.error.ZMQError: Address already in use
+Process logmessaged:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/data/data/com.termux/files/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "./manager.py", line 160, in launcher
+    mod.main()
+  File "/data/openpilot/selfdrive/logmessaged.py", line 19, in main
+    pub_sock = messaging.pub_sock(service_list['logMessage'].port)
+  File "/data/openpilot/selfdrive/messaging.py", line 16, in pub_sock
+    sock.bind("tcp://%s:%d" % (addr, port))
+  File "zmq/backend/cython/socket.pyx", line 550, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
+    raise ZMQError(errno)
+zmq.error.ZMQError: Address already in use
+crash
+Traceback (most recent call last):
+  File "./manager.py", line 160, in launcher
+    mod.main()
+  File "/data/openpilot/selfdrive/thermald.py", line 307, in main
+    thermald_thread()
+  File "/data/openpilot/selfdrive/thermald.py", line 124, in thermald_thread
+    thermal_sock = messaging.pub_sock(service_list['thermal'].port)
+  File "/data/openpilot/selfdrive/messaging.py", line 16, in pub_sock
+    sock.bind("tcp://%s:%d" % (addr, port))
+  File "zmq/backend/cython/socket.pyx", line 550, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
+    raise ZMQError(errno)
+zmq.error.ZMQError: Address already in use
+Process thermald:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/data/data/com.termux/files/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "./manager.py", line 160, in launcher
+    mod.main()
+  File "/data/openpilot/selfdrive/thermald.py", line 307, in main
+    thermald_thread()
+  File "/data/openpilot/selfdrive/thermald.py", line 124, in thermald_thread
+    thermal_sock = messaging.pub_sock(service_list['thermal'].port)
+  File "/data/openpilot/selfdrive/messaging.py", line 16, in pub_sock
+    sock.bind("tcp://%s:%d" % (addr, port))
+  File "zmq/backend/cython/socket.pyx", line 550, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
+    raise ZMQError(errno)
+zmq.error.ZMQError: Address already in use
+LEON detected
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/5857f6160f94ae01/2019-10-20--23-42-17/0/bootlog.bz2?se=2019-10-27T23%3A42%3A18Z&sp=cw&sv=2018-03-28&sr=b&sig=XTbeCxLhJFxdJTxxGmdZFW5unqLkRFnHgyG8jUdty00%3D {'x-ms-blob-type': 'BlockBlob'}
+git fetch success: 
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+running LD_LIBRARY_PATH= appops set ai.comma.plus.offroad SU allow
+Result: Parcel(00000000    '....')
+running am start -n ai.comma.plus.frame/.MainActivity
+{"event": "upload_success", "key": "2019-10-20--23-42-17--0/bootlog.bz2", "fn": "/data/media/0/realdata/2019-10-20--23-42-17--0/bootlog.bz2", "sz": 61443, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+upload done, success=True
+starting python selfdrive.pandad
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Connecting to panda
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+reporting new tombstone /data/tombstones/tombstone_04
+{'tombstone': 'Process logcatd  (./logcatd) got signal 6 (SIGABRT) code -6 (SI_TKILL)\nAbort message: \'logcatd.cc:34: int main(): assertion "err == 0" failed\'\n'}
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+ui.c: awake off
+Result: Parcel(00000000    '....')
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, stopped[1])>
+   running logmessaged <Process(logmessaged, stopped[1])>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
