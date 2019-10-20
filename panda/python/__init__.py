@@ -183,8 +183,9 @@ class Panda(object):
                 self.bootstub = device.getProductID() == 0xddee
                 self.legacy = (device.getbcdDevice() != 0x2300)
                 self._handle = device.open()
+		self._handle.setAutoDetachKernelDriver(True) # Keyur edit; stupid usb driver not available
                 if claim:
-                  self._handle.claimInterface(0)
+		  self._handle.claimInterface(0)
                   #self._handle.setInterfaceAltSetting(0, 0) #Issue in USB stack
                 break
         except Exception as e:
