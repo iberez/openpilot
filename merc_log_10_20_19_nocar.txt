@@ -1,0 +1,66 @@
+ln: failed to create symbolic link '/data/pythonpath/openpilot': File exists
+Result: Parcel(00000000 00000001   '........')
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+installed apks {'com.android.providers.telephony': '/system/priv-app/TelephonyProvider/TelephonyProvider.apk', 'com.qti.service.colorservice': '/system/vendor/app/colorservice/colorservice.apk', 'com.qualcomm.shutdownlistner': '/system/app/shutdownlistener/shutdownlistener.apk', 'com.android.documentsui': '/system/app/DocumentsUI/DocumentsUI.apk', 'ai.comma.plus.black': '/data/app/ai.comma.plus.black-1/base.apk', 'ai.comma.plus.frame': '/data/app/ai.comma.plus.frame-1/base.apk', 'com.android.externalstorage': '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk', 'com.qualcomm.qti.telephonyservice': '/system/app/QtiTelephonyService/QtiTelephonyService.apk', 'com.android.defcontainer': '/system/priv-app/DefaultContainerService/DefaultContainerService.apk', 'com.android.pacprocessor': '/system/app/PacProcessor/PacProcessor.apk', 'org.codeaurora.bluetooth': '/system/app/BluetoothExt/BluetoothExt.apk', 'com.qti.qualcomm.datastatusnotification': '/system/app/datastatusnotification/datastatusnotification.apk', 'android': '/system/framework/framework-res.apk', 'cyanogenmod.platform': '/system/framework/org.cyanogenmod.platform-res.apk', 'com.android.backupconfirm': '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk', 'org.codeaurora.ims': '/system/priv-app/ims/ims.apk', 'com.android.statementservice': '/system/priv-app/StatementService/StatementService.apk', 'com.qualcomm.qcrilmsgtunnel': '/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk', 'com.android.providers.settings': '/system/priv-app/SettingsProvider/SettingsProvider.apk', 'com.android.sharedstoragebackup': '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk', 'com.android.printspooler': '/system/app/PrintSpooler/PrintSpooler.apk', 'com.android.frameworks.telresources': '/system/app/telresources/telresources.apk', 'com.android.webview': '/system/app/webview/webview.apk', 'com.android.inputdevices': '/system/priv-app/InputDevices/InputDevices.apk', 'com.android.keychain': '/system/app/KeyChain/KeyChain.apk', 'org.cyanogenmod.cmsettings': '/system/priv-app/CMSettingsProvider/CMSettingsProvider.apk', 'com.android.packageinstaller': '/system/priv-app/PackageInstaller/PackageInstaller.apk', 'com.android.proxyhandler': '/system/priv-app/ProxyHandler/ProxyHandler.apk', 'ai.comma.plus.neossetup': '/system/priv-app/NEOSSetup/NEOSSetup.apk', 'com.android.inputmethod.latin': '/system/app/LatinIME/LatinIME.apk', 'com.android.smspush': '/system/app/WAPPushManager/WAPPushManager.apk', 'ai.comma.plus.offroad': '/data/app/ai.comma.plus.offroad-1/base.apk', 'com.android.settings': '/system/priv-app/Settings/Settings.apk', 'com.qualcomm.qti.ims': '/system/vendor/app/imssettings/imssettings.apk', 'com.android.vpndialogs': '/system/priv-app/VpnDialogs/VpnDialogs.apk', 'com.android.phone': '/system/priv-app/TeleService/TeleService.apk', 'com.android.shell': '/system/priv-app/Shell/Shell.apk', 'com.android.location.fused': '/system/priv-app/FusedLocation/FusedLocation.apk', 'com.android.systemui': '/system/priv-app/SystemUI/SystemUI.apk', 'com.android.bluetoothmidiservice': '/system/app/BluetoothMidiService/BluetoothMidiService.apk', 'com.qualcomm.fastdormancy': '/system/app/fastdormancy/fastdormancy.apk', 'com.android.bluetooth': '/system/app/Bluetooth/Bluetooth.apk', 'com.qualcomm.timeservice': '/system/app/TimeService/TimeService.apk', 'com.android.development': '/system/app/Development/Development.apk', 'com.qualcomm.embms': '/system/app/embms/embms.apk', 'com.android.captiveportallogin': '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk'}
+comparing version of ai.comma.plus.black  3e77042a72eadf465ec3c577ebe3cb9cef4e48bb vs 3e77042a72eadf465ec3c577ebe3cb9cef4e48bb
+comparing version of ai.comma.plus.frame  f386656c74043f94b5a27fb7ac031277d8ab17a6 vs f386656c74043f94b5a27fb7ac031277d8ab17a6
+comparing version of ai.comma.plus.offroad  3a27d188b529f3e01c0cec55be43c190c02635f3 vs 3a27d188b529f3e01c0cec55be43c190c02635f3
+getting pilotauth
+dongle id is 5857f6160f94ae01
+dirty is 1
+make: Nothing to be done for 'all'.
+preimporting selfdrive.thermald
+preimporting selfdrive.loggerd.uploader
+preimporting selfdrive.loggerd.deleter
+preimporting selfdrive.controls.controlsd
+make: 'boardd_api_impl.so' is up to date.
+mkdir -p obj
+make: 'simple_kalman_impl.so' is up to date.
+make: 'packer_impl.so' is up to date.
+mkdir -p obj
+make: Nothing to be done for 'all'.
+preimporting selfdrive.controls.plannerd
+make: Nothing to be done for 'all'.
+preimporting selfdrive.controls.radard
+make: Nothing to be done for 'all'.
+building ('selfdrive/locationd', ['./ubloxd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/loggerd', ['./loggerd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.logmessaged
+preimporting selfdrive.tombstoned
+building ('selfdrive/logcatd', ['./logcatd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/proclogd', ['./proclogd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/boardd', ['./boardd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.pandad
+Traceback (most recent call last):
+  File "./manager.py", line 558, in <module>
+    main()
+  File "./manager.py", line 538, in main
+    manager_prepare(spinner)
+  File "./manager.py", line 451, in manager_prepare
+    prepare_managed_process(p)
+  File "./manager.py", line 220, in prepare_managed_process
+    importlib.import_module(proc)
+  File "/data/data/com.termux/files/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/data/openpilot/selfdrive/pandad.py", line 7, in <module>
+    from panda import Panda, PandaDFU, BASEDIR
+  File "/data/openpilot/panda/__init__.py", line 1, in <module>
+    from .python import Panda, PandaWifiStreaming, PandaDFU, ESPROM, CesantaFlasher, flash_release, BASEDIR, ensure_st_up_to_date, build_st, PandaSerial
+  File "/data/openpilot/panda/python/__init__.py", line 186
+    self._handle.setAutoDetachKernelDriver(True) # Keyur edit; stupid usb driver not available
+                                                                                             ^
+TabError: inconsistent use of tabs and spaces in indentation
