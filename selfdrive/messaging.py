@@ -12,7 +12,7 @@ def new_message():
 
 def pub_sock(port, addr="*"):
   context = zmq.Context.instance()
-  print("tcp://%s:%d" % (addr, port)))
+  print("tcp://%s:%d" % (addr, port))
   sock = context.socket(zmq.PUB)
   #sock.unbind("tcp://%s:%d" % (addr, port)) # Clean socket port to start binding - Keyur
   sock.bind("tcp://%s:%d" % (addr, port))
