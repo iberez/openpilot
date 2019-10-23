@@ -317,7 +317,12 @@ def system(cmd):
 
 
 def manager_thread():
-  
+  # now loop
+  thermal_sock = messaging.sub_sock(service_list['thermal'].port)
+
+  cloudlog.info("manager start")
+  cloudlog.info({"environ": os.environ})
+
   # save boot log
   subprocess.call(["./loggerd", "--bootlog"], cwd=os.path.join(BASEDIR, "selfdrive/loggerd"))
 
@@ -340,12 +345,6 @@ def manager_thread():
     start_managed_process("pandad")
 
   logger_dead = False
-
-  # now loop
-  thermal_sock = messaging.sub_sock(service_list['thermal'].port)
-
-  cloudlog.info("manager start")
-  cloudlog.info({"environ": os.environ})
 
   while 1:
     msg = messaging.recv_sock(thermal_sock, wait=True)
