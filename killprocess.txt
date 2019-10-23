@@ -1,0 +1,3869 @@
+ln: failed to create symbolic link '/data/pythonpath/openpilot': File exists
+Result: Parcel(00000000 00000001   '........')
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+installed apks {'com.android.providers.telephony': '/system/priv-app/TelephonyProvider/TelephonyProvider.apk', 'com.qti.service.colorservice': '/system/vendor/app/colorservice/colorservice.apk', 'com.qualcomm.shutdownlistner': '/system/app/shutdownlistener/shutdownlistener.apk', 'com.android.documentsui': '/system/app/DocumentsUI/DocumentsUI.apk', 'ai.comma.plus.black': '/data/app/ai.comma.plus.black-1/base.apk', 'ai.comma.plus.frame': '/data/app/ai.comma.plus.frame-1/base.apk', 'com.android.externalstorage': '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk', 'com.qualcomm.qti.telephonyservice': '/system/app/QtiTelephonyService/QtiTelephonyService.apk', 'com.android.defcontainer': '/system/priv-app/DefaultContainerService/DefaultContainerService.apk', 'com.android.pacprocessor': '/system/app/PacProcessor/PacProcessor.apk', 'org.codeaurora.bluetooth': '/system/app/BluetoothExt/BluetoothExt.apk', 'com.qti.qualcomm.datastatusnotification': '/system/app/datastatusnotification/datastatusnotification.apk', 'android': '/system/framework/framework-res.apk', 'cyanogenmod.platform': '/system/framework/org.cyanogenmod.platform-res.apk', 'com.android.backupconfirm': '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk', 'org.codeaurora.ims': '/system/priv-app/ims/ims.apk', 'com.android.statementservice': '/system/priv-app/StatementService/StatementService.apk', 'com.qualcomm.qcrilmsgtunnel': '/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk', 'com.android.providers.settings': '/system/priv-app/SettingsProvider/SettingsProvider.apk', 'com.android.sharedstoragebackup': '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk', 'com.android.printspooler': '/system/app/PrintSpooler/PrintSpooler.apk', 'com.android.frameworks.telresources': '/system/app/telresources/telresources.apk', 'com.android.webview': '/system/app/webview/webview.apk', 'com.android.inputdevices': '/system/priv-app/InputDevices/InputDevices.apk', 'com.android.keychain': '/system/app/KeyChain/KeyChain.apk', 'org.cyanogenmod.cmsettings': '/system/priv-app/CMSettingsProvider/CMSettingsProvider.apk', 'com.android.packageinstaller': '/system/priv-app/PackageInstaller/PackageInstaller.apk', 'com.android.proxyhandler': '/system/priv-app/ProxyHandler/ProxyHandler.apk', 'ai.comma.plus.neossetup': '/system/priv-app/NEOSSetup/NEOSSetup.apk', 'com.android.inputmethod.latin': '/system/app/LatinIME/LatinIME.apk', 'com.android.smspush': '/system/app/WAPPushManager/WAPPushManager.apk', 'ai.comma.plus.offroad': '/data/app/ai.comma.plus.offroad-1/base.apk', 'com.android.settings': '/system/priv-app/Settings/Settings.apk', 'com.qualcomm.qti.ims': '/system/vendor/app/imssettings/imssettings.apk', 'com.android.vpndialogs': '/system/priv-app/VpnDialogs/VpnDialogs.apk', 'com.android.phone': '/system/priv-app/TeleService/TeleService.apk', 'com.android.shell': '/system/priv-app/Shell/Shell.apk', 'com.android.location.fused': '/system/priv-app/FusedLocation/FusedLocation.apk', 'com.android.systemui': '/system/priv-app/SystemUI/SystemUI.apk', 'com.android.bluetoothmidiservice': '/system/app/BluetoothMidiService/BluetoothMidiService.apk', 'com.qualcomm.fastdormancy': '/system/app/fastdormancy/fastdormancy.apk', 'com.android.bluetooth': '/system/app/Bluetooth/Bluetooth.apk', 'com.qualcomm.timeservice': '/system/app/TimeService/TimeService.apk', 'com.android.development': '/system/app/Development/Development.apk', 'com.qualcomm.embms': '/system/app/embms/embms.apk', 'com.android.captiveportallogin': '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk'}
+comparing version of ai.comma.plus.black  3e77042a72eadf465ec3c577ebe3cb9cef4e48bb vs 3e77042a72eadf465ec3c577ebe3cb9cef4e48bb
+comparing version of ai.comma.plus.frame  f386656c74043f94b5a27fb7ac031277d8ab17a6 vs f386656c74043f94b5a27fb7ac031277d8ab17a6
+comparing version of ai.comma.plus.offroad  3a27d188b529f3e01c0cec55be43c190c02635f3 vs 3a27d188b529f3e01c0cec55be43c190c02635f3
+getting pilotauth
+dongle id is 5857f6160f94ae01
+dirty is 1
+make: Nothing to be done for 'all'.
+preimporting selfdrive.thermald
+preimporting selfdrive.loggerd.uploader
+preimporting selfdrive.loggerd.deleter
+preimporting selfdrive.controls.controlsd
+make: 'boardd_api_impl.so' is up to date.
+mkdir -p obj
+make: 'simple_kalman_impl.so' is up to date.
+make: 'packer_impl.so' is up to date.
+mkdir -p obj
+make: Nothing to be done for 'all'.
+preimporting selfdrive.controls.plannerd
+make: Nothing to be done for 'all'.
+preimporting selfdrive.controls.radard
+make: Nothing to be done for 'all'.
+building ('selfdrive/locationd', ['./ubloxd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/loggerd', ['./loggerd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.logmessaged
+preimporting selfdrive.tombstoned
+building ('selfdrive/logcatd', ['./logcatd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/proclogd', ['./proclogd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/boardd', ['./boardd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.pandad
+building ('selfdrive/ui', ['./start.py'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.locationd.calibrationd
+building ('selfdrive/locationd', ['./paramsd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/visiond', ['./visiond'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/sensord', ['./start_sensord.py'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/sensord', ['./start_gpsd.py'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.updated
+manager start
+{'environ': environ({'SHELL': '/system/comma/usr/bin/bash', 'PREFIX': '/usr', 'NUMEXPR_NUM_THREADS': '1', 'GIT_SSH_COMMAND': 'ssh -i /data/gitkey', 'EDITOR': 'vim', 'PWD': '/data/openpilot/selfdrive', 'LOGNAME': 'root', 'OPENBLAS_NUM_THREADS': '1', 'EXTERNAL_STORAGE': '/sdcard', 'HOME': '/data/data/com.termux/files/home', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/data/data/com.termux/files/home/.pythonrc', 'SSH_CONNECTION': '192.168.100.69 37728 192.168.100.140 8022', 'VECLIB_MAXIMUM_THREADS': '1', 'ANDROID_DATA': '/data', 'PYTHONPATH': '/data/openpilot', 'TERM': 'xterm-256color', 'VIMINIT': 'source $MYVIMRC', 'USER': 'root', 'SHLVL': '1', 'VALGRIND_LIB': '/usr/lib/valgrind', 'ANDROID_ROOT': '/system', 'PASSIVE': '0', 'LD_LIBRARY_PATH': '/data/data/com.termux/files/usr/lib', 'MYVIMRC': '/data/data/com.termux/files/home/.vimrc', 'SSH_CLIENT': '192.168.100.69 37728 8022', 'OMP_NUM_THREADS': '1', 'PATH': '/usr/local/bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/sbin:/data/data/com.termux/files/usr/bin/applets:/bin:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'MKL_NUM_THREADS': '1', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/data/openpilot', '_': './manager.py', 'BASEDIR': '/data/openpilot', 'DONGLE_ID': '5857f6160f94ae01'})}
+loggerd.cc: bootlog to /data/media/0/realdata/2019-10-23--00-21-08--0
+starting python selfdrive.thermald
+starting python selfdrive.logmessaged
+starting process logcatd
+sh: can't create /sys/module/dwc3_msm/parameters/otg_switch: Permission denied
+starting python selfdrive.tombstoned
+starting python selfdrive.loggerd.uploader
+starting process ui
+starting python selfdrive.updated
+uploader_fn
+running pm enable ai.comma.plus.offroad
+logcatd.cc:34: int main(): assertion "err == 0" failed
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+{"event": "uploader_netcheck", "allow_cellular": true, "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+to upload ('2019-10-22--23-57-21--21/qlog.bz2', '/data/media/0/realdata/2019-10-22--23-57-21--21/qlog.bz2')
+{"event": "upload", "key": "2019-10-22--23-57-21--21/qlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-57-21--21/qlog.bz2", "sz": 17305, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+checking '2019-10-22--23-57-21--21/qlog.bz2' with size 17305
+uploading '/data/media/0/realdata/2019-10-22--23-57-21--21/qlog.bz2'
+{"event": "STATUS_PACKET", "count": 0, "health": {"health": {"voltage": 12167, "current": 87, "started": true, "controlsAllowed": false, "gasInterceptorDetected": false, "startedSignalDetectedDeprecated": false, "hasGps": false, "canSendErrs": 35992, "canFwdErrs": 0, "gmlanSendErrs": 0, "hwType": "whitePanda", "fanSpeedRpm": 0, "usbPowerMode": "cdp"}, "logMonoTime": 1474293062562, "valid": true}, "location": null, "thermal": {"thermal": {"cpu0": 535, "cpu1": 538, "cpu2": 548, "cpu3": 541, "mem": 509, "gpu": 458, "bat": 39200, "freeSpace": 0.9554280638694763, "batteryPercent": 97, "batteryStatus": "Charging", "fanSpeed": 16384, "started": true, "usbOnline": true, "startedTs": 1474309972458, "thermalStatus": "green", "batteryCurrent": 1373, "batteryVoltage": 4291051, "chargingError": false, "chargingDisabled": false}, "logMonoTime": 1474296830166, "valid": true}, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=65 time=87.4 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 87.409/87.409/87.409/0.000 ms
+make: Nothing to be done for 'all'.
+WARNING: linker: ui: unused DT entry: type 0x1d arg 0x2265
+running pm enable ai.comma.plus.frame
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+ui.c: awake normal
+Result: Parcel(00000000    '....')
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+running LD_LIBRARY_PATH= appops set ai.comma.plus.offroad SU allow
+git fetch success: 
+upload_url v1.3 https://commadata2.blob.core.windows.net/qlog/5857f6160f94ae01/2019-10-22--23-57-21/21/qlog.bz2?se=2019-10-30T00%3A21%3A09Z&sp=cw&sv=2018-03-28&sr=b&sig=ODzO0ntz6UlfF8h70daepo%2BuZwq8vlOCbIf9klaAz2Q%3D {'x-ms-blob-type': 'BlockBlob'}
+running am start -n ai.comma.plus.frame/.MainActivity
+starting python selfdrive.pandad
+starting python selfdrive.controls.controlsd
+Connecting to panda
+starting python selfdrive.controls.plannerd
+Panda found, connecting
+starting process loggerd
+starting process sensord
+starting python selfdrive.controls.radard
+pid 5404's current scheduling policy: SCHED_OTHER
+pid 5404's current scheduling priority: 0
+pid 5404's new scheduling policy: SCHED_FIFO
+pid 5404's new scheduling priority: 2
+starting python selfdrive.locationd.calibrationd
+plannerd is waiting for CarParams
+pid 5402's current scheduling policy: SCHED_OTHER
+pid 5402's current scheduling priority: 0
+pid 5402's new scheduling policy: SCHED_FIFO
+pid 5402's new scheduling priority: 3
+starting process paramsd
+starting process visiond
+starting process proclogd
+pid 5416's current scheduling policy: SCHED_OTHER
+pid 5416's current scheduling priority: 0
+pid 5416's new scheduling policy: SCHED_FIFO
+pid 5416's new scheduling priority: 2
+radard is waiting for CarParams
+starting process ubloxd
+paramsd.cc:28: int main(int, char **): assertion "live_parameters_sock" failed
+starting process gpsd
+starting python selfdrive.loggerd.deleter
+proclogd.cc:42: int main(): assertion "err == 0" failed
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, started)>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, started)>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+ubloxd_main.cc: starting ubloxd
+loggerd.cc: logging to /data/media/0/realdata/2019-10-23--00-21-10--0
+vendor: 'QUALCOMM'
+platform version: 'OpenCL 2.0 QUALCOMM build: commit #6ff34ae changeid #I0ac3940325 Date: 09/23/16 Fri Local Branch:  Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.HB.1.3.2.06.00.01.214.261'
+profile: 'FULL_PROFILE'
+extensions: ' '
+name: 'QUALCOMM Adreno(TM)'
+device version: 'OpenCL 2.0 Adreno(TM) 530'
+max work group size: 1024
+type = 0x0004 = CL_DEVICE_TYPE_GPU
+
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, started)>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, started)>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+loaded model with size: 16950453
+make: Nothing to be done for 'all'.
+{"event": "upload_success", "key": "2019-10-22--23-57-21--21/qlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-57-21--21/qlog.bz2", "sz": 17305, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+upload done, success=True
+make: Nothing to be done for 'all'.
+{"event": "uploader_netcheck", "allow_cellular": true, "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+to upload ('2019-10-22--23-57-21--22/qlog.bz2', '/data/media/0/realdata/2019-10-22--23-57-21--22/qlog.bz2')
+{"event": "upload", "key": "2019-10-22--23-57-21--22/qlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-57-21--22/qlog.bz2", "sz": 17080, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+checking '2019-10-22--23-57-21--22/qlog.bz2' with size 17080
+uploading '/data/media/0/realdata/2019-10-22--23-57-21--22/qlog.bz2'
+diag diag_get_max_file_size size=200,max_file_size=209715200,min_file_size=167772160
+diag diag_get_max_file_size size=200,max_file_size=209715200,min_file_size=167772160
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, started)>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Traceback (most recent call last):
+  File "/data/openpilot/panda/python/__init__.py", line 188, in connect
+    self._handle.claimInterface(0)
+  File "/data/data/com.termux/files/usr/lib/python3.7/site-packages/usb1/__init__.py", line 1309, in claimInterface
+    libusb1.libusb_claim_interface(self.__handle, interface),
+  File "/data/data/com.termux/files/usr/lib/python3.7/site-packages/usb1/__init__.py", line 133, in mayRaiseUSBError
+    __raiseUSBError(value)
+  File "/data/data/com.termux/files/usr/lib/python3.7/site-packages/usb1/__init__.py", line 125, in raiseUSBError
+    raise __STATUS_TO_EXCEPTION_DICT.get(value, __USBError)(value)
+usb1.USBErrorBusy: LIBUSB_ERROR_BUSY [-6]
+Panda 1c7d332be926fda8 connected, version: v1.5.3-EON-unknown-RELEASE, expected v1.5.3-EON
+boardd.cc: starting boardd
+upload_url v1.3 https://commadata2.blob.core.windows.net/qlog/5857f6160f94ae01/2019-10-22--23-57-21/22/qlog.bz2?se=2019-10-30T00%3A21%3A11Z&sp=cw&sv=2018-03-28&sr=b&sig=jPmie%2BSX31nHJs7EejwdzSFgS6Xu6/T0cXoUElHEoAY%3D {'x-ms-blob-type': 'BlockBlob'}
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, started)>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{"event": "upload_success", "key": "2019-10-22--23-57-21--22/qlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-57-21--22/qlog.bz2", "sz": 17080, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+upload done, success=True
+{"event": "uploader_netcheck", "allow_cellular": true, "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+to upload ('2019-10-22--23-57-21--23/qlog.bz2', '/data/media/0/realdata/2019-10-22--23-57-21--23/qlog.bz2')
+{"event": "upload", "key": "2019-10-22--23-57-21--23/qlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-57-21--23/qlog.bz2", "sz": 0, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+checking '2019-10-22--23-57-21--23/qlog.bz2' with size 0
+upload done, success=True
+sensors.cc:103: void (anonymous namespace)::sensor_loop(): assertion "sensor_events_sock" failed
+{"event": "uploader_netcheck", "allow_cellular": true, "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+to upload ('2019-10-22--23-27-57--13/rlog.bz2', '/data/media/0/realdata/2019-10-22--23-27-57--13/rlog.bz2')
+{"event": "upload", "key": "2019-10-22--23-27-57--13/rlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-27-57--13/rlog.bz2", "sz": 1103374, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+checking '2019-10-22--23-27-57--13/rlog.bz2' with size 1103374
+uploading '/data/media/0/realdata/2019-10-22--23-27-57--13/rlog.bz2'
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, started)>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/5857f6160f94ae01/2019-10-22--23-27-57/13/rlog.bz2?se=2019-10-30T00%3A21%3A12Z&sp=cw&sv=2018-03-28&sr=b&sig=V9Rk/YxX7DfZbuzNwORXNd0tDW9FZFmH1wOuhX%2BRE7A%3D {'x-ms-blob-type': 'BlockBlob'}
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+reporting new tombstone /data/tombstones/tombstone_00
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{'tombstone': 'Process paramsd  (./paramsd) got signal 6 (SIGABRT) code -6 (SI_TKILL)\nAbort message: \'paramsd.cc:28: int main(int, char **): assertion "live_parameters_sock" failed\'\n'}
+reporting new tombstone /data/tombstones/tombstone_01
+model: vision_lambda/div:0 -> outputs/concat:0
+input product is 196608
+adding index 2: rnn_state:0
+adding index 1: desire:0
+loaded model with size: 601957
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+model: lambda/div:0 -> outputs/concat:0
+input product is 76800
+loaded model with size: 5303350
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{'tombstone': 'Process sensord  (sensord) got signal 6 (SIGABRT) code -6 (SI_TKILL)\nAbort message: \'sensors.cc:103: void (anonymous namespace)::sensor_loop(): assertion "sensor_events_sock" failed\'\n'}
+reporting new tombstone /data/tombstones/tombstone_08
+model: lambda/div:0 -> dense_2/BiasAdd:0
+input product is 212800
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+ui.c: vision_subscribe type:0
+ui.c: vision_subscribe type:1
+../common/buffering.c:51: int tbuffer_select(TBuffer *): assertion "i < tb->num_bufs" failed
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{'tombstone': 'Process proclogd  (./proclogd) got signal 6 (SIGABRT) code -6 (SI_TKILL)\nAbort message: \'proclogd.cc:42: int main(): assertion "err == 0" failed\'\n'}
+reporting new tombstone /data/tombstones/tombstone_07
+LEON detected
+tcp://*:8005
+( logMonoTime = 1474296830166,
+  thermal = (
+    cpu0 = 535,
+    cpu1 = 538,
+    cpu2 = 548,
+    cpu3 = 541,
+    mem = 509,
+    gpu = 458,
+    bat = 39200,
+    freeSpace = 0.95542806,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1474795922509,
+  thermal = (
+    cpu0 = 522,
+    cpu1 = 512,
+    cpu2 = 609,
+    cpu3 = 603,
+    mem = 522,
+    gpu = 461,
+    bat = 39200,
+    freeSpace = 0.95542765,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1475296240686,
+  thermal = (
+    cpu0 = 522,
+    cpu1 = 509,
+    cpu2 = 609,
+    cpu3 = 554,
+    mem = 522,
+    gpu = 464,
+    bat = 39200,
+    freeSpace = 0.95542747,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1475796767040,
+  thermal = (
+    cpu0 = 509,
+    cpu1 = 503,
+    cpu2 = 574,
+    cpu3 = 532,
+    mem = 516,
+    gpu = 464,
+    bat = 39200,
+    freeSpace = 0.95542747,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1476301309801,
+  thermal = (
+    cpu0 = 554,
+    cpu1 = 554,
+    cpu2 = 596,
+    cpu3 = 564,
+    mem = 528,
+    gpu = 467,
+    bat = 39200,
+    freeSpace = 0.95542645,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1476798206727,
+  thermal = (
+    cpu0 = 567,
+    cpu1 = 561,
+    cpu2 = 603,
+    cpu3 = 590,
+    mem = 541,
+    gpu = 474,
+    bat = 39200,
+    freeSpace = 0.95542395,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1477299096050,
+  thermal = (
+    cpu0 = 593,
+    cpu1 = 570,
+    cpu2 = 603,
+    cpu3 = 612,
+    mem = 551,
+    gpu = 477,
+    bat = 39200,
+    freeSpace = 0.95542413,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1477798683290,
+  thermal = (
+    cpu0 = 593,
+    cpu1 = 580,
+    cpu2 = 590,
+    cpu3 = 596,
+    mem = 554,
+    gpu = 480,
+    bat = 39200,
+    freeSpace = 0.95542789,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1478299522821,
+  thermal = (
+    cpu0 = 606,
+    cpu1 = 570,
+    cpu2 = 606,
+    cpu3 = 612,
+    mem = 561,
+    gpu = 480,
+    bat = 39200,
+    freeSpace = 0.95542485,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1478799826050,
+  thermal = (
+    cpu0 = 609,
+    cpu1 = 574,
+    cpu2 = 577,
+    cpu3 = 612,
+    mem = 554,
+    gpu = 483,
+    bat = 39200,
+    freeSpace = 0.95542485,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1479301042560,
+  thermal = (
+    cpu0 = 577,
+    cpu1 = 603,
+    cpu2 = 567,
+    cpu3 = 622,
+    mem = 554,
+    gpu = 483,
+    bat = 39200,
+    freeSpace = 0.95542473,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1479801732299,
+  thermal = (
+    cpu0 = 603,
+    cpu1 = 574,
+    cpu2 = 622,
+    cpu3 = 583,
+    mem = 558,
+    gpu = 483,
+    bat = 39200,
+    freeSpace = 0.95542467,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1480301164799,
+  thermal = (
+    cpu0 = 612,
+    cpu1 = 580,
+    cpu2 = 583,
+    cpu3 = 587,
+    mem = 564,
+    gpu = 490,
+    bat = 39200,
+    freeSpace = 0.95542455,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1480810779538,
+  thermal = (
+    cpu0 = 580,
+    cpu1 = 570,
+    cpu2 = 599,
+    cpu3 = 628,
+    mem = 554,
+    gpu = 490,
+    bat = 39200,
+    freeSpace = 0.95542455,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1481302524955,
+  thermal = (
+    cpu0 = 554,
+    cpu1 = 551,
+    cpu2 = 548,
+    cpu3 = 551,
+    mem = 541,
+    gpu = 490,
+    bat = 39200,
+    freeSpace = 0.95542455,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1481802900944,
+  thermal = (
+    cpu0 = 558,
+    cpu1 = 564,
+    cpu2 = 574,
+    cpu3 = 564,
+    mem = 545,
+    gpu = 490,
+    bat = 39200,
+    freeSpace = 0.95541859,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1482368900059,
+  thermal = (
+    cpu0 = 538,
+    cpu1 = 541,
+    cpu2 = 535,
+    cpu3 = 532,
+    mem = 525,
+    gpu = 487,
+    bat = 39200,
+    freeSpace = 0.95541859,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{'tombstone': 'Process logcatd  (./logcatd) got signal 6 (SIGABRT) code -6 (SI_TKILL)\nAbort message: \'logcatd.cc:34: int main(): assertion "err == 0" failed\'\n'}
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{"event": "upload_success", "key": "2019-10-22--23-27-57--13/rlog.bz2", "fn": "/data/media/0/realdata/2019-10-22--23-27-57--13/rlog.bz2", "sz": 1103374, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+upload done, success=True
+{"event": "uploader_netcheck", "allow_cellular": true, "is_on_hotspot": false, "is_on_wifi": true, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+to upload ('2019-10-22--23-27-57--13/fcamera.hevc', '/data/media/0/realdata/2019-10-22--23-27-57--13/fcamera.hevc')
+{"event": "upload", "key": "2019-10-22--23-27-57--13/fcamera.hevc", "fn": "/data/media/0/realdata/2019-10-22--23-27-57--13/fcamera.hevc", "sz": 37540314, "ctx": {"dongle_id": "5857f6160f94ae01", "version": "0.6.5-release", "dirty": true, "is_eon": true}}
+checking '2019-10-22--23-27-57--13/fcamera.hevc' with size 37540314
+uploading '/data/media/0/realdata/2019-10-22--23-27-57--13/fcamera.hevc'
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+upload_url v1.3 https://commaincoming.blob.core.windows.net/commaincoming/5857f6160f94ae01/2019-10-22--23-27-57/13/fcamera.hevc?se=2019-10-30T00%3A21%3A18Z&sp=cw&sv=2018-03-28&sr=b&sig=sK3al22vNJS5S3JvNO5yGX4D2JfPyL0WVShK9tbMYqU%3D {'x-ms-blob-type': 'BlockBlob'}
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+reporting new tombstone /data/tombstones/tombstone_02
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+{'tombstone': 'Process processing  (./visiond) got signal 6 (SIGABRT) code -6 (SI_TKILL)\nAbort message: \'../common/buffering.c:51: int tbuffer_select(TBuffer *): assertion "i < tb->num_bufs" failed\'\n'}
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, started)>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Result: Parcel(00000000    '....')
+ui.c: vision disconnected
+
+( logMonoTime = 1482961182506,
+  thermal = (
+    cpu0 = 564,
+    cpu1 = 570,
+    cpu2 = 580,
+    cpu3 = 567,
+    mem = 541,
+    gpu = 483,
+    bat = 39200,
+    freeSpace = 0.95541841,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 2136,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1483466731204,
+  thermal = (
+    cpu0 = 538,
+    cpu1 = 532,
+    cpu2 = 564,
+    cpu3 = 587,
+    mem = 532,
+    gpu = 483,
+    bat = 39200,
+    freeSpace = 0.95541841,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 2136,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1483981030110,
+  thermal = (
+    cpu0 = 541,
+    cpu1 = 532,
+    cpu2 = 535,
+    cpu3 = 545,
+    mem = 519,
+    gpu = 480,
+    bat = 39200,
+    freeSpace = 0.95543653,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 915,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1484481235579,
+  thermal = (
+    cpu0 = 528,
+    cpu1 = 528,
+    cpu2 = 516,
+    cpu3 = 519,
+    mem = 516,
+    gpu = 477,
+    bat = 39200,
+    freeSpace = 0.95543766,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 915,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1485004024328,
+  thermal = (
+    cpu0 = 519,
+    cpu1 = 519,
+    cpu2 = 525,
+    cpu3 = 528,
+    mem = 512,
+    gpu = 477,
+    bat = 39200,
+    freeSpace = 0.9554376,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1485517541464,
+  thermal = (
+    cpu0 = 545,
+    cpu1 = 538,
+    cpu2 = 548,
+    cpu3 = 545,
+    mem = 528,
+    gpu = 477,
+    bat = 39200,
+    freeSpace = 0.95543516,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1486018119328,
+  thermal = (
+    cpu0 = 528,
+    cpu1 = 525,
+    cpu2 = 519,
+    cpu3 = 512,
+    mem = 509,
+    gpu = 474,
+    bat = 39200,
+    freeSpace = 0.95543516,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1486546357557,
+  thermal = (
+    cpu0 = 567,
+    cpu1 = 583,
+    cpu2 = 590,
+    cpu3 = 596,
+    mem = 541,
+    gpu = 474,
+    bat = 39200,
+    freeSpace = 0.95543247,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1487062212349,
+  thermal = (
+    cpu0 = 525,
+    cpu1 = 525,
+    cpu2 = 558,
+    cpu3 = 528,
+    mem = 519,
+    gpu = 477,
+    bat = 39200,
+    freeSpace = 0.95543247,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1487563705005,
+  thermal = (
+    cpu0 = 522,
+    cpu1 = 522,
+    cpu2 = 528,
+    cpu3 = 532,
+    mem = 516,
+    gpu = 474,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1488063508546,
+  thermal = (
+    cpu0 = 522,
+    cpu1 = 522,
+    cpu2 = 512,
+    cpu3 = 496,
+    mem = 506,
+    gpu = 474,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1488564688963,
+  thermal = (
+    cpu0 = 522,
+    cpu1 = 512,
+    cpu2 = 522,
+    cpu3 = 522,
+    mem = 512,
+    gpu = 467,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1489064444431,
+  thermal = (
+    cpu0 = 509,
+    cpu1 = 506,
+    cpu2 = 516,
+    cpu3 = 519,
+    mem = 506,
+    gpu = 470,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1489608622608,
+  thermal = (
+    cpu0 = 528,
+    cpu1 = 519,
+    cpu2 = 545,
+    cpu3 = 519,
+    mem = 509,
+    gpu = 470,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1490106721149,
+  thermal = (
+    cpu0 = 516,
+    cpu1 = 509,
+    cpu2 = 516,
+    cpu3 = 525,
+    mem = 503,
+    gpu = 467,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1490607095003,
+  thermal = (
+    cpu0 = 528,
+    cpu1 = 532,
+    cpu2 = 528,
+    cpu3 = 535,
+    mem = 506,
+    gpu = 467,
+    bat = 39200,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 915,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1491106612295,
+  thermal = (
+    cpu0 = 509,
+    cpu1 = 499,
+    cpu2 = 496,
+    cpu3 = 516,
+    mem = 499,
+    gpu = 467,
+    bat = 39500,
+    freeSpace = 0.95543236,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 915,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+
+( logMonoTime = 1491607479899,
+  thermal = (
+    cpu0 = 503,
+    cpu1 = 509,
+    cpu2 = 499,
+    cpu3 = 499,
+    mem = 499,
+    gpu = 464,
+    bat = 39500,
+    freeSpace = 0.95543212,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1492108580263,
+  thermal = (
+    cpu0 = 503,
+    cpu1 = 499,
+    cpu2 = 496,
+    cpu3 = 487,
+    mem = 493,
+    gpu = 464,
+    bat = 39500,
+    freeSpace = 0.95543212,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1492608432867,
+  thermal = (
+    cpu0 = 503,
+    cpu1 = 512,
+    cpu2 = 499,
+    cpu3 = 490,
+    mem = 493,
+    gpu = 461,
+    bat = 39500,
+    freeSpace = 0.95543212,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1493109387763,
+  thermal = (
+    cpu0 = 499,
+    cpu1 = 496,
+    cpu2 = 496,
+    cpu3 = 493,
+    mem = 493,
+    gpu = 461,
+    bat = 39500,
+    freeSpace = 0.955432,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1493609155523,
+  thermal = (
+    cpu0 = 496,
+    cpu1 = 490,
+    cpu2 = 490,
+    cpu3 = 493,
+    mem = 490,
+    gpu = 458,
+    bat = 39500,
+    freeSpace = 0.955432,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1494110916929,
+  thermal = (
+    cpu0 = 499,
+    cpu1 = 487,
+    cpu2 = 490,
+    cpu3 = 490,
+    mem = 487,
+    gpu = 461,
+    bat = 39500,
+    freeSpace = 0.955432,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1494610094846,
+  thermal = (
+    cpu0 = 496,
+    cpu1 = 493,
+    cpu2 = 503,
+    cpu3 = 490,
+    mem = 490,
+    gpu = 458,
+    bat = 39500,
+    freeSpace = 0.955432,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1495110846564,
+  thermal = (
+    cpu0 = 493,
+    cpu1 = 483,
+    cpu2 = 525,
+    cpu3 = 496,
+    mem = 487,
+    gpu = 454,
+    bat = 39500,
+    freeSpace = 0.955432,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1495611292710,
+  thermal = (
+    cpu0 = 499,
+    cpu1 = 503,
+    cpu2 = 532,
+    cpu3 = 519,
+    mem = 503,
+    gpu = 458,
+    bat = 39500,
+    freeSpace = 0.95542985,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1496111813439,
+  thermal = (
+    cpu0 = 496,
+    cpu1 = 493,
+    cpu2 = 503,
+    cpu3 = 487,
+    mem = 493,
+    gpu = 461,
+    bat = 39500,
+    freeSpace = 0.95542753,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1496612719324,
+  thermal = (
+    cpu0 = 499,
+    cpu1 = 493,
+    cpu2 = 512,
+    cpu3 = 499,
+    mem = 493,
+    gpu = 458,
+    bat = 39500,
+    freeSpace = 0.95542753,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1497112970209,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 487,
+    cpu2 = 483,
+    cpu3 = 493,
+    mem = 487,
+    gpu = 458,
+    bat = 39500,
+    freeSpace = 0.95542753,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1497613148230,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 487,
+    cpu2 = 487,
+    cpu3 = 490,
+    mem = 487,
+    gpu = 454,
+    bat = 39500,
+    freeSpace = 0.95542741,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1498113821615,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 487,
+    cpu2 = 480,
+    cpu3 = 490,
+    mem = 487,
+    gpu = 458,
+    bat = 39500,
+    freeSpace = 0.95542741,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1498614515886,
+  thermal = (
+    cpu0 = 496,
+    cpu1 = 490,
+    cpu2 = 480,
+    cpu3 = 493,
+    mem = 483,
+    gpu = 454,
+    bat = 39500,
+    freeSpace = 0.95542741,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1499115035573,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 480,
+    cpu3 = 483,
+    mem = 483,
+    gpu = 454,
+    bat = 39500,
+    freeSpace = 0.95542741,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1499615684844,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 490,
+    cpu2 = 490,
+    cpu3 = 483,
+    mem = 483,
+    gpu = 454,
+    bat = 39500,
+    freeSpace = 0.95542741,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+
+( logMonoTime = 1500115942916,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 490,
+    cpu3 = 477,
+    mem = 483,
+    gpu = 451,
+    bat = 39500,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1500616897968,
+  thermal = (
+    cpu0 = 493,
+    cpu1 = 490,
+    cpu2 = 493,
+    cpu3 = 480,
+    mem = 483,
+    gpu = 454,
+    bat = 39500,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1501117278593,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 483,
+    cpu3 = 490,
+    mem = 483,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1501618341353,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 493,
+    cpu2 = 483,
+    cpu3 = 477,
+    mem = 483,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1502118281614,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 483,
+    cpu2 = 477,
+    cpu3 = 487,
+    mem = 480,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1502618941561,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 493,
+    cpu3 = 480,
+    mem = 483,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1503119565988,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 477,
+    cpu2 = 487,
+    cpu3 = 477,
+    mem = 480,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542717,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1503619974321,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 480,
+    cpu3 = 483,
+    mem = 480,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542705,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1504122052134,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 483,
+    cpu2 = 483,
+    cpu3 = 474,
+    mem = 480,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542705,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1504621514842,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 480,
+    cpu2 = 490,
+    cpu3 = 480,
+    mem = 480,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542705,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1505121947133,
+  thermal = (
+    cpu0 = 480,
+    cpu1 = 477,
+    cpu2 = 487,
+    cpu3 = 474,
+    mem = 477,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542705,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1505622704841,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 487,
+    cpu2 = 496,
+    cpu3 = 480,
+    mem = 487,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.955425,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1506123164268,
+  thermal = (
+    cpu0 = 496,
+    cpu1 = 493,
+    cpu2 = 512,
+    cpu3 = 493,
+    mem = 493,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542306,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4290746,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1506623826143,
+  thermal = (
+    cpu0 = 493,
+    cpu1 = 490,
+    cpu2 = 496,
+    cpu3 = 483,
+    mem = 487,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542306,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1507124451664,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 490,
+    cpu3 = 477,
+    mem = 480,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542306,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1507624956091,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 496,
+    cpu3 = 483,
+    mem = 483,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542306,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1508125283903,
+  thermal = (
+    cpu0 = 483,
+    cpu1 = 483,
+    cpu2 = 483,
+    cpu3 = 470,
+    mem = 480,
+    gpu = 454,
+    bat = 39700,
+    freeSpace = 0.95542282,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+
+( logMonoTime = 1508626263642,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 483,
+    cpu2 = 490,
+    cpu3 = 474,
+    mem = 483,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1509126603642,
+  thermal = (
+    cpu0 = 483,
+    cpu1 = 477,
+    cpu2 = 490,
+    cpu3 = 474,
+    mem = 480,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1509627472288,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 480,
+    cpu2 = 487,
+    cpu3 = 474,
+    mem = 480,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1510127900517,
+  thermal = (
+    cpu0 = 480,
+    cpu1 = 480,
+    cpu2 = 490,
+    cpu3 = 474,
+    mem = 477,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1510629229423,
+  thermal = (
+    cpu0 = 496,
+    cpu1 = 490,
+    cpu2 = 493,
+    cpu3 = 483,
+    mem = 483,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1511129331662,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 480,
+    cpu2 = 480,
+    cpu3 = 474,
+    mem = 477,
+    gpu = 451,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1511630765464,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 487,
+    cpu2 = 477,
+    cpu3 = 470,
+    mem = 480,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542264,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1512130091662,
+  thermal = (
+    cpu0 = 483,
+    cpu1 = 477,
+    cpu2 = 483,
+    cpu3 = 477,
+    mem = 474,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542252,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1512631345516,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 487,
+    cpu2 = 490,
+    cpu3 = 477,
+    mem = 480,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542252,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1513131393641,
+  thermal = (
+    cpu0 = 483,
+    cpu1 = 477,
+    cpu2 = 477,
+    cpu3 = 480,
+    mem = 474,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542252,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1513631764109,
+  thermal = (
+    cpu0 = 483,
+    cpu1 = 477,
+    cpu2 = 477,
+    cpu3 = 487,
+    mem = 474,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542252,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1514132340359,
+  thermal = (
+    cpu0 = 480,
+    cpu1 = 477,
+    cpu2 = 470,
+    cpu3 = 477,
+    mem = 474,
+    gpu = 445,
+    bat = 39700,
+    freeSpace = 0.95542252,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1068,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1514634467078,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 483,
+    cpu2 = 496,
+    cpu3 = 525,
+    mem = 483,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542252,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1515133674265,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 480,
+    cpu2 = 474,
+    cpu3 = 483,
+    mem = 477,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542061,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1515634357650,
+  thermal = (
+    cpu0 = 483,
+    cpu1 = 480,
+    cpu2 = 477,
+    cpu3 = 480,
+    mem = 474,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95542061,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1516135074525,
+  thermal = (
+    cpu0 = 487,
+    cpu1 = 480,
+    cpu2 = 483,
+    cpu3 = 493,
+    mem = 483,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95541853,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1525,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )
+( logMonoTime = 1516635735775,
+  thermal = (
+    cpu0 = 490,
+    cpu1 = 483,
+    cpu2 = 480,
+    cpu3 = 487,
+    mem = 480,
+    gpu = 448,
+    bat = 39700,
+    freeSpace = 0.95541835,
+    batteryPercent = 97,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 1474309972458,
+    thermalStatus = green,
+    batteryCurrent = 1373,
+    batteryVoltage = 4291051,
+    chargingError = false,
+    chargingDisabled = false ),
+  valid = true )   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+ui.c: awake off
+Result: Parcel(00000000    '....')
+Result: Parcel(00000000    '....')
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
+   running thermald <Process(thermald, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running logcatd <Process(logcatd, stopped[SIGABRT])>
+   running tombstoned <Process(tombstoned, started)>
+   running uploader <Process(uploader, started)>
+   running ui <Process(ui, started)>
+   running updated <Process(updated, started)>
+   running pandad <Process(pandad, started)>
+   running controlsd <Process(controlsd, started)>
+   running plannerd <Process(plannerd, started)>
+   running loggerd <Process(loggerd, started)>
+   running sensord <Process(sensord, stopped[SIGABRT])>
+   running radard <Process(radard, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running paramsd <Process(paramsd, stopped[SIGABRT])>
+   running visiond <Process(visiond, stopped[SIGABRT])>
+   running proclogd <Process(proclogd, stopped[SIGABRT])>
+   running ubloxd <Process(ubloxd, started)>
+   running gpsd <Process(gpsd, started)>
+   running deleter <Process(deleter, started)>
